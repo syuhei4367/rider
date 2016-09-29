@@ -1,0 +1,12 @@
+<%= debug @ghost2.name%>
+<div class="container-flui">
+    <div id="rider" class="center-block" style="text-align: center;">
+      <h1>仮面ライダーゴースト図鑑</h1>
+      <div class="center-block">
+      <%= link_to @drive,"/show",{:class => "btn btn-warning btn-lg ", :id => "btn"} %>
+      <%= link_to @ghost,"/index",{:class => "btn btn-warning btn-lg ", :id => "btn"} %>
+    </div>
+      <h1><%= @ghost2.name %></h1>
+      <%= image_tag 'ghost.png', :class => 'img' %>
+
+</div>
